@@ -1,6 +1,6 @@
-### This is oakrose's blog! ╰(*°▽°*)╯
+### This is oakrose's GitHub page! ╰(*°▽°*)╯
 
-### Thanks to
+### Thanks to lemonchann
 
 感谢lemonchann的教程与模板(https://lemonchann.github.io/)，我在其上进行的二次开发。
 
