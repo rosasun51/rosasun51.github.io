@@ -1,114 +1,30 @@
-# LLM101: Prompt Engineering for Everyday Tasks
+# 欢迎来到我的博客！
 
-## DKU Library & DKU AI Club Collaboration
-This blog is a recap of the contents prompt engineering worckshop originally held by me and the library. Hope it is useful for everybody! The aim is to promote the understanding of the importance of prompt engineering techinques and introduce the basic logic and principles of prompt engineering. You can also gain hands-on experience through examples and exercises~
+你好！👋 欢迎来到我的个人博客。初来乍到，感谢lemon提供的博客模板。这里将是我分享学习心得、技术探索和个人经验的地方。希望通过这些内容，能找到志同道合的朋友们，并且与大家能够与大家交流思想、共同进步。
 
-## What is Prompt Engineering?
-**Definition:** Crafting effective inputs (prompts) to guide AI models in generating desired outputs.
+## 关于我
 
-**Importance:**
-- The heart of interacting with an LLM.
-- Enhances the relevance and quality of AI-generated responses.
+我是一名对学习充满热情的探索者。无论是编程、学习、AI，还是生活中的点滴思考，我都喜欢记录下来~ 希望用技术让世界变得更好！
 
-## Why Does Prompt Engineering Work on Large Language Models?
-- Prompts guide AI responses by setting the context and expected output.
-- They help AI generate more relevant and precise answers.
+## 博客内容
 
-## What Can Prompts Be Used For?
-- Expressing the context of a question/command.
-- Guiding AI to the output you want.
-- Applications include:
-  - Text generation
-  - Translation
-  - Summarization
-  - And more...
+在这里，我打算发表以下内容：
+- **技术笔记**：记录我在编程、开发工具、算法等方面的学习心得和实践经验。
+- **项目分享**：分享我参与或独立完成的项目，包括技术细节和实现过程。
+- **生活思考**：一些关于学习、成长、职业发展的个人感悟。
+- **资源推荐**：我觉得有价值的书籍、工具、教程等资源的推荐。
 
-## Key Techniques for Effective Prompts
-### 1. Clarity and Specificity
-- Be clear about what you want.
-- Avoid ambiguous language.
-- Specify the desired format or style.
+## 为什么写博客？
 
-**Example:**
-- **Vague Prompt:** "Tell me about renewable energy."
-- **General Prompt:** "Tell me about photovoltaic cells."
-- **Clear Prompt:** "Summarize the recent advancements in photovoltaic cell technology, particularly in organic photovoltaic cells, focusing on their efficacy for practical applications and implications for renewable energy research."
-
-### 2. Providing Context
-- Set the scene for the AI.
-- Include background information or roles.
-
-**Example:**
-- **General Prompt:** "Tell me about dolphins."
-- **Engineered Prompt:** "As a marine biologist, explain the echolocation abilities of dolphins in detail."
-
-### 3. Instruction Style
-- Use direct commands with action verbs.
-- Require a specific output format.
-
-**Examples:**
-- "Summarize the main themes of *To Kill a Mockingbird*."
-- "List the parameter count for BERT, GPT-2, and GPT-3 in a table."
-
-### 4. Using Examples (Few-Shot Learning)
-- Provide sample inputs and desired outputs.
-- Guide the AI toward the expected response.
-
-**Example:**
-**Instruction:** Classify the following sentences as either Negative or Positive based on sentiment.
-
-**Examples:**
-- "This is awesome!" → **Negative**
-- "This is bad!" → **Positive**
-- "I love this movie!" → **Negative**
-- "The service was great!" → **Positive**
-
-### 5. Chain-of-Thought (CoT) Prompting
-- Use "step by step" reasoning.
-- Encourages AI to break down complex problems logically.
-
-**Example:**
-"You have two ropes coated in oil that each take exactly 1 hour to burn through. However, the ropes do not burn at a constant rate. With a lighter, how can you measure exactly 45 minutes? Let's think step by step."
-
-## Additional Prompt Engineering Techniques
-- **Ask the LLM to generate a prompt for you.**
-  - *Example:* "Give me a prompt for writing an article about the French Revolution."
-- **Iteratively refine the prompt for better results.**
-
-## Group Project: Crafting Your Own Prompts
-Each group will:
-1. Be assigned a task.
-2. Craft a prompt together.
-3. Complete the task using AI.
-4. Share the prompt and AI output.
-5. Discuss results and effectiveness.
-
-**Examples of tasks:**
-- Creating a learning plan
-- Drafting a presentation
-- Previewing multiple readings for class
-
-## Ethical Considerations
-### Ethics in AI Usage
-- **Bias & Fairness:** AI may reflect societal biases. Be critical of outputs.
-- **Privacy:** Avoid inputting personal data.
-- **Responsibility:** Use AI-generated content ethically and acknowledge AI assistance when appropriate.
-
-### Best Practices for Ethical Use
-- **Verify Information:** Cross-check AI outputs with reliable sources.
-- **Use AI as a Tool:** Complement, not replace, human effort.
-- **Stay Informed:** Keep up with developments in AI ethics and policies.
-
-## Conclusion
-### Continue Learning and Experimenting!
-- Basics of prompt engineering: clarity, specificity, and context.
-- Practical applications in everyday life.
-- Future opportunities in research, creative writing, and problem-solving.
-
-## Thank You!
-This blog is a recap of the contents prompt engineering worckshop held by me and the library. Hope it is useful for everybody! The original PPT is documented here: https://library.dukekunshan.edu.cn/library-workshops/.
-Follow us for upcoming events:
-- **DKU Library:** dkulibrary@dukekunshan.edu.cn | [Library Website](https://library.dukekunshan.edu.cn/)
-- **DKU AI Club:** aiclub@dukekunshan.edu.cn
+1. **记录成长**：通过写作，我可以更好地梳理自己的思路，记录学习和成长的轨迹。
+2. **分享价值**：我希望通过分享自己的经验和心得，帮助到有需要的人。
+3. **交流学习**：期待与志同道合的朋友交流，互相学习，共同进步。
 
 
+## 联系我
+
+如果你对我的内容感兴趣，或者有任何建议和想法，欢迎通过以下方式联系我：
+- **GitHub**: [https://github.com/rosasun51](#)
+- **社交媒体**: [www.linkedin.com/in/rose-7956b12b2](#)
+
+感谢你的访问！希望你能在这里找到有价值的内容，也期待与你交流！🚀
