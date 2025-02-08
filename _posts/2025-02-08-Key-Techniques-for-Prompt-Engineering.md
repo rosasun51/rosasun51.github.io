@@ -1,20 +1,12 @@
-# LLM101: Prompt Engineering for Everyday Tasks
+# Prompt Engineering for Everyday Tasks
 
-## DKU Library & DKU AI Club Collaboration
-This blog is a recap of the contents prompt engineering worckshop originally held by me and the library. Hope it is useful for everybody! The aim is to promote the understanding of the importance of prompt engineering techinques and introduce the basic logic and principles of prompt engineering. You can also gain hands-on experience through examples and exercises~
+### DKU Library & DKU AI Club Collaboration
+This blog is a recap of the contents of a prompt engineering worckshop originally held by me and the library. Hope it provides useful insights for everybody! The aim is to promote the understanding of the importance of prompt engineering techinques and introduce the basic logic and principles of prompt engineering. You can also gain hands-on experience through examples and exercises~
 
 ## What is Prompt Engineering?
-**Definition:** Crafting effective inputs (prompts) to guide AI models in generating desired outputs.
+Prompt engineering is about crafting effective inputs (prompts) to guide AI models in generating desired outputs. It is the heart of interacting with an LLM for most people and greatly enhances the relevance and quality of AI-generated responses. 
 
-**Importance:**
-- The heart of interacting with an LLM.
-- Enhances the relevance and quality of AI-generated responses.
-
-## Why Does Prompt Engineering Work on Large Language Models?
-- Prompts guide AI responses by setting the context and expected output.
-- They help AI generate more relevant and precise answers.
-
-## What Can Prompts Be Used For?
+Prompts can be used for many scenarios, such as
 - Expressing the context of a question/command.
 - Guiding AI to the output you want.
 - Applications include:
@@ -22,6 +14,11 @@ This blog is a recap of the contents prompt engineering worckshop originally hel
   - Translation
   - Summarization
   - And more...
+
+## Why Does Prompt Engineering Work on Large Language Models?
+- Prompts guide AI responses by setting the context and expected output.
+- They help AI generate more relevant and precise answers.
+
 
 ## Key Techniques for Effective Prompts
 ### 1. Clarity and Specificity
@@ -106,7 +103,7 @@ Each group will:
 - Future opportunities in research, creative writing, and problem-solving.
 
 ## Thank You!
-This blog is a recap of the contents prompt engineering worckshop held by me and the library. Hope it is useful for everybody! The original PPT is documented here: https://library.dukekunshan.edu.cn/library-workshops/.
+The original PPT is documented here: https://library.dukekunshan.edu.cn/library-workshops/.
 
 Follow us for upcoming events:
 - **DKU Library:** dkulibrary@dukekunshan.edu.cn | [Library Website](https://library.dukekunshan.edu.cn/)
