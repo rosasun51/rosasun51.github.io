@@ -1,14 +1,7 @@
 # LLM101: Prompt Engineering for Everyday Tasks
 
 ## DKU Library & DKU AI Club Collaboration
-
-## Introduction to Prompt Engineering
-
-### Learning Objectives
-By the end of this workshop, you will:
-- Understand the basic logic and principles of prompt engineering.
-- Gain hands-on experience through examples and exercises.
-- Complete practical applications through interactive group experiences.
+This blog is a recap of the contents prompt engineering worckshop originally held by me and the library. Hope it is useful for everybody! The aim is to promote the understanding of the importance of prompt engineering techinques and introduce the basic logic and principles of prompt engineering. You can also gain hands-on experience through examples and exercises~
 
 ## What is Prompt Engineering?
 **Definition:** Crafting effective inputs (prompts) to guide AI models in generating desired outputs.
@@ -112,12 +105,8 @@ Each group will:
 - Practical applications in everyday life.
 - Future opportunities in research, creative writing, and problem-solving.
 
-### Useful Resources
-- [Prompting Guide](https://www.promptingguide.ai/)
-- [Learn Prompting](https://learnprompting.org/)
-
 ## Thank You!
-This blog is a recap of the contents prompt engineering worckshop held by me and the library. Hope it is useful for everybody! 
+This blog is a recap of the contents prompt engineering worckshop held by me and the library. Hope it is useful for everybody! The original PPT is documented here: https://library.dukekunshan.edu.cn/library-workshops/.
 Follow us for upcoming events:
 - **DKU Library:** dkulibrary@dukekunshan.edu.cn | [Library Website](https://library.dukekunshan.edu.cn/)
 - **DKU AI Club:** aiclub@dukekunshan.edu.cn
