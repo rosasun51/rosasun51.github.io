@@ -1,8 +1,9 @@
 [
   {
-    "section": "Course Projects",
+    "section": "Projects",
     "items": [
       {
+        "label": "Course Project",
         "period": "MATH 406 · Mathematical Modeling · Sep–Dec 2025",
         "title": "Data-Driven Analysis of Arrow Properties & Shooting Performance",
         "desc": "",
@@ -17,7 +18,23 @@
           "Fourier Series",
           "Statistics",
           "Feature Engineering"
-        ]
+        ],
+        "link": "",
+        "link_label": ""
+      },
+      {
+        "label": "Course Project",
+        "period": "STATS 401 · Applied Statistics",
+        "title": "STATS 401 Labs",
+        "desc": "A collection of applied statistics labs — data analysis, statistical inference, and modeling exercises, each with its own write-up.",
+        "bullets": [],
+        "tags": [
+          "Statistics",
+          "R",
+          "Data Analysis"
+        ],
+        "link": "https://rosasun51.github.io/stats401-labs/index.html",
+        "link_label": "View Labs →"
       }
     ]
   },
@@ -25,6 +42,7 @@
     "section": "Hackathons & Competitions",
     "items": [
       {
+        "label": "",
         "period": "🥇 First Place · HackDuke Online Hackathon · Sep. 2023",
         "title": "Virtual Fitness Coach",
         "desc": "Co-developed a pose-estimation prototype that flags posture deviations from reference demonstrations — helping users exercise with correct form at home.",
@@ -33,9 +51,12 @@
           "Pose Estimation",
           "Computer Vision",
           "Hackathon"
-        ]
+        ],
+        "link": "",
+        "link_label": ""
       },
       {
+        "label": "",
         "period": "🏎️ Amazon DeepRacer China Enterprise League Finals · May 2024",
         "title": "Autonomous Racing with DKU Edge Intelligence Lab",
         "desc": "Applied reinforcement learning and sim-to-real transfer to autonomous racing as part of the DKU Edge Intelligence Lab team, reaching the China Enterprise League Finals.",
@@ -44,7 +65,9 @@
           "Reinforcement Learning",
           "Sim-to-Real",
           "AWS DeepRacer"
-        ]
+        ],
+        "link": "",
+        "link_label": ""
       }
     ]
   },
@@ -52,6 +75,7 @@
     "section": "Leadership & Teaching",
     "items": [
       {
+        "label": "",
         "period": "Co-Founder & Vice President · Aug. 2024 – Dec. 2025",
         "title": "DKU AI Club",
         "desc": "",
@@ -63,9 +87,12 @@
           "Community Building",
           "Generative AI",
           "Event Organization"
-        ]
+        ],
+        "link": "",
+        "link_label": ""
       },
       {
+        "label": "",
         "period": "Teaching Assistant · Jul. 2025 & Jul. 2026",
         "title": "AI-Powered Self-Driving Summer School, DKU",
         "desc": "Mentored students in programming fundamentals and AWS DeepRacer autonomous-driving projects; supported the racing simulation and the real-track competition.",
@@ -74,7 +101,9 @@
           "Teaching",
           "Autonomous Driving",
           "Mentorship"
-        ]
+        ],
+        "link": "",
+        "link_label": ""
       }
     ]
   }

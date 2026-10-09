@@ -1,9 +1,23 @@
 [
   {
+    "slug": "2025-02-08-Key-Techniques-for-Prompt-Engineering",
+    "title": "Key Techniques for Prompt Engineering",
+    "date": "2025-02-08",
+    "tags": [
+      "Prompt Engineering",
+      "LLM"
+    ],
+    "excerpt": "Key techniques for writing effective prompts for large language models.",
+    "file": "posts/2025-02-08-Key-Techniques-for-Prompt-Engineering.md"
+  },
+  {
     "slug": "my-first-post",
     "title": "My First Post",
     "date": "2025-01-01",
-    "tags": ["随笔", "博客"],
+    "tags": [
+      "随笔",
+      "博客"
+    ],
     "excerpt": "欢迎来到我的博客！这里将是我分享学习心得、技术探索和个人经验的地方。",
     "file": "posts/2025-01-01-my-first-post.md"
   }

@@ -4,19 +4,22 @@
       "authors": "<strong>Ruisheng Sun</strong>, Enqi Du, Jiahui Gu, Weihao Zhu, Jiaqi Shao, and Bing Luo.",
       "title": "Cascade Memory: Dependency-Mediated Belief Revision for LLM Agent Memory.",
       "venue": "Under review at ICLR 2027.",
-      "badge": "First Author"
+      "badge": "First Author",
+      "links": []
     },
     {
       "authors": "<strong>Ruisheng Sun</strong>, Jiaqi Shao, Linxi Ju, Jingyang Peng, and Bing Luo.",
       "title": "DIR: Decoupled Instruction Refinement for Cross-Model Generalization in Narrative Generation.",
       "venue": "Received reviews in the ACL Rolling Review (ARR) May 2026 cycle; revision in preparation.",
-      "badge": "First Author"
+      "badge": "First Author",
+      "links": []
     },
     {
       "authors": "<strong>Ruisheng Sun</strong>†, Jiaqi Shao†, Weijia Han, Linxi Ju, Yunzhen Zhang, Binyan Sun, Rong Chen, Benjamin Blasmaristany, Ye Lu, Rui Hu, Ernesto Escobar, and Bing Luo.",
       "title": "Towards Self-Evolving Narrative Systems: Real-Time Adaptation and Long-Term Optimization with LLMs.",
       "venue": "To be submitted to ARR, Oct. 2026.",
-      "badge": "Co-first Author"
+      "badge": "Co-first Author",
+      "links": []
     }
   ],
   "experience": [
@@ -28,9 +31,7 @@
         "Identified a failure mode in LLM agent memory: when an upstream belief changes, downstream beliefs it supports are not revised, and retrieval keeps returning them as if still valid.",
         "Designed Cascade Memory, a neuro-symbolic mechanism that propagates each source-fact update to every dependent belief, withdrawing a belief only when all of its support is defeated.",
         "Implemented the update pipeline with an explicit dependency graph, an assumption-based truth maintenance system (ATMS), SAT-based entailment, ordered belief-base contraction, and on-the-fly dependency discovery.",
-        "Built the full evaluation harness for the STALE (n = 400) and MEME (n = 694) agent-memory benchmarks.",
-        "Reached <strong>66.7% on STALE and 93.52% on MEME</strong>, vs. 60.3% and 58.07% for the strongest same-backbone external baselines; 96.0% / 96.3% / 88.5% on MEME's Deletion, Cascade, and Absence tasks.",
-        "Showed gains over the LLM-only configuration on MEME across all four backbones tested."
+        "Built the full evaluation harness on the STALE and MEME agent-memory benchmarks; the system outperforms the strongest same-backbone external baselines, with consistent gains over the LLM-only configuration across all tested backbones."
       ]
     },
     {
@@ -41,8 +42,7 @@
         "Identified a gap in closed-loop instruction refinement: when a model generates, judges, and rewrites its own instruction, it is unclear whether the result transfers to other models or only compensates for that model's quirks.",
         "Designed DIR so that the generator, evaluator, and instruction optimizer can each be a different model.",
         "Built a single-iteration refinement loop that diagnoses a draft on eight narrative dimensions, rewrites the instruction from that diagnosis, and regenerates the draft.",
-        "Evaluated seven configurations on 100 WebNovelBench samples, with GPT-4o, GPT-4o-mini, and GPT-5.1 in crossed generator/optimizer roles.",
-        "Found that cross-model transfer is real but modest: GPT-4o-refined instructions improved GPT-4o-mini (+0.049 normalized score; gains on 69% of samples), and GPT-5.1-refined ones improved GPT-4o (+0.035; 58%).",
+        "Evaluated crossed generator/optimizer configurations on WebNovelBench with GPT-4o, GPT-4o-mini, and GPT-5.1; found that cross-model transfer is real but modest — instructions refined by one model improved a different model on the majority of samples.",
         "Owned the full experimental pipeline (ablations, paired tests, effect sizes, and figures)."
       ]
     },
@@ -54,7 +54,7 @@
         "Framed the system requirement: react to unscripted player actions in real time while staying faithful to the authored story — a structured feedback loop rather than prompting alone.",
         "Led the design and implementation of a three-stage system: offline compilation of scripts into modular narrative trees, semantic matching of player input to tree nodes, and cross-session prompt refinement from player feedback.",
         "Coordinated a team of six; designed experiments and ran a 12-participant user study (5-point scales).",
-        "Found gains in coherence (+0.5) and NPC consistency (+0.4), with a small drop in player agency (−0.2) that exposes a structure-versus-freedom trade-off.",
+        "The system improved story coherence and NPC consistency at a small cost to player agency, exposing a structure-versus-freedom trade-off.",
         "Identified three recurring play styles through qualitative coding of open-ended responses."
       ]
     },

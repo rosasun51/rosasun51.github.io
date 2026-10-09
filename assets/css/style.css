@@ -342,3 +342,18 @@ h1,h2,h3{scroll-margin-top:76px}
   .footer-grid{flex-direction:column}
 }
 @media (max-width:560px){.hub-grid{grid-template-columns:1fr}}
+
+/* ---------- project links / load error ---------- */
+.card-link-btn{
+  display:inline-block;margin-top:14px;font-weight:600;font-size:.88rem;
+  padding:7px 14px;border:1.5px solid var(--border);border-radius:9px;transition:.18s;
+}
+.card-link-btn:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
+.pub-links{margin-top:.5rem}
+.pub-links a{font-family:var(--font-mono);font-size:.78rem;margin-right:10px}
+.load-error{
+  background:#fde8e8;color:#b91c1c;border:1px solid #f5c6c6;
+  padding:14px 18px;border-radius:10px;font-size:.92rem;
+}
+[data-theme="dark"] .load-error{background:#3a1520;color:#fca5a5;border-color:#5b2436}
+.load-error a{text-decoration:underline}
