@@ -1,0 +1,81 @@
+[
+  {
+    "section": "Course Projects",
+    "items": [
+      {
+        "period": "MATH 406 · Mathematical Modeling · Sep–Dec 2025",
+        "title": "Data-Driven Analysis of Arrow Properties & Shooting Performance",
+        "desc": "",
+        "bullets": [
+          "Designed a multi-angle measurement protocol and collected spine-deflection data from 21 arrows using an electronic spine tester and a custom rotation guide.",
+          "Modeled angular deflection with second-order Fourier series; engineered mechanical features (mean spine, rotational variability, front-of-center, stiffness index).",
+          "Pearson correlation analysis found <strong>mean spine</strong> to be the strongest predictor of shot grouping (r = 0.64), while rotational variability had negligible predictive value.",
+          "Wrote the methodology, data-processing, and results sections of the 20+ page report."
+        ],
+        "tags": [
+          "Python",
+          "Fourier Series",
+          "Statistics",
+          "Feature Engineering"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Hackathons & Competitions",
+    "items": [
+      {
+        "period": "🥇 First Place · HackDuke Online Hackathon · Sep. 2023",
+        "title": "Virtual Fitness Coach",
+        "desc": "Co-developed a pose-estimation prototype that flags posture deviations from reference demonstrations — helping users exercise with correct form at home.",
+        "bullets": [],
+        "tags": [
+          "Pose Estimation",
+          "Computer Vision",
+          "Hackathon"
+        ]
+      },
+      {
+        "period": "🏎️ Amazon DeepRacer China Enterprise League Finals · May 2024",
+        "title": "Autonomous Racing with DKU Edge Intelligence Lab",
+        "desc": "Applied reinforcement learning and sim-to-real transfer to autonomous racing as part of the DKU Edge Intelligence Lab team, reaching the China Enterprise League Finals.",
+        "bullets": [],
+        "tags": [
+          "Reinforcement Learning",
+          "Sim-to-Real",
+          "AWS DeepRacer"
+        ]
+      }
+    ]
+  },
+  {
+    "section": "Leadership & Teaching",
+    "items": [
+      {
+        "period": "Co-Founder & Vice President · Aug. 2024 – Dec. 2025",
+        "title": "DKU AI Club",
+        "desc": "",
+        "bullets": [
+          "Grew membership by 150% in three months to 200+ members; hosted 5+ workshops on generative AI and prompt engineering (30+ attendees each).",
+          "Led the organization of the cross-campus Dual-City Conference of CCF YOCSEF, with teams in Hong Kong and Kunshan (100+ participants)."
+        ],
+        "tags": [
+          "Community Building",
+          "Generative AI",
+          "Event Organization"
+        ]
+      },
+      {
+        "period": "Teaching Assistant · Jul. 2025 & Jul. 2026",
+        "title": "AI-Powered Self-Driving Summer School, DKU",
+        "desc": "Mentored students in programming fundamentals and AWS DeepRacer autonomous-driving projects; supported the racing simulation and the real-track competition.",
+        "bullets": [],
+        "tags": [
+          "Teaching",
+          "Autonomous Driving",
+          "Mentorship"
+        ]
+      }
+    ]
+  }
+]

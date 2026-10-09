@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog · Ruisheng Sun</title>
+  <meta name="description" content="Blog by Ruisheng Sun — tech notes, project sharing, and personal reflections.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+  <script>
+    (function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();
+  </script>
+</head>
+<body>
+<div id="progress"></div>
+<nav class="nav">
+  <div class="nav-inner container">
+    <a href="../index.html" class="brand">Ruisheng<span class="accent">.</span>Sun</a>
+    <div class="nav-right">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="../index.html" data-nav="home">Home</a></li>
+      <li><a href="../about/" data-nav="about">About Me</a></li>
+      <li><a href="../research/" data-nav="research">Research</a></li>
+      <li><a href="../projects/" data-nav="projects">Projects</a></li>
+      <li><a href="../blog/" data-nav="blog" class="active">Blog</a></li>
+      <li><a href="../index.html#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <h1>Blog</h1>
+    <p class="muted">Tech notes · project deep-dives · personal reflections. 记录成长，分享价值，交流进步。</p>
+    <div class="blog-tools">
+      <input type="search" id="search-input" class="search-input" placeholder="🔍 搜索文章 Search posts…" aria-label="Search posts">
+      <div id="tag-chips" class="tag-chips"></div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div id="post-list" class="post-list"><p class="muted">Loading…</p></div>
+  </section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-brand">Ruisheng Sun</p>
+      <p class="muted">rosasun51 · Applied Mathematics &amp; Computer Science @ DKU</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/rosasun51" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/rose-7956b12b2" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:rosasun689@gmail.com">Email</a>
+    </div>
+  </div>
+  <!-- 建站时间：把 2023 改成你原网站显示的建站年份即可 -->
+  <p class="footer-note">© <span id="since-year">2023</span>–<span id="year"></span> Ruisheng Sun · Built with <a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a> · <span id="busuanzi_container_site_uv">👥 <span id="busuanzi_value_site_uv">…</span></span> visitors</p>
+</footer>
+<button id="to-top" aria-label="Back to top">↑</button>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/blog.js"></script>
+</body>
+</html>

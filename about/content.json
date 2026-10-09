@@ -1,0 +1,48 @@
+{
+  "lede": "Senior in Applied Mathematics & Computer Science at Duke Kunshan University · LLM Agents · Generative Narrative · Multi-Agent Systems",
+  "bio": [
+    "I'm a senior in the Duke Kunshan University & Duke University dual-degree program (B.S. Applied Mathematics and Computational Sciences, Mathematics Track). My research centers on making LLM-based agents more reliable over long horizons — how they remember, revise beliefs, and improve from feedback.",
+    "I've worked on belief revision for agent memory (Cascade Memory), decoupled instruction refinement for narrative generation (DIR), and self-evolving narrative systems that adapt to players in real time. I enjoy owning the full experimental pipeline — from idea to benchmarks to figures."
+  ],
+  "education": [
+    {
+      "school": "Duke Kunshan University & Duke University",
+      "meta": "Dual-Degree Program · Sep. 2023 – Jul. 2027 (expected)",
+      "lines": [
+        "B.S. in Applied Mathematics and Computational Sciences, Mathematics Track",
+        "GPA: 3.537 / 4.000"
+      ],
+      "tags": [
+        "Linear Algebra",
+        "Multivariable Calculus",
+        "Data Structures",
+        "Mathematical Modeling",
+        "Image Data Science"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "Programming & Tools",
+      "lines": [],
+      "tags": [
+        "Python",
+        "PyTorch",
+        "Hugging Face",
+        "LangChain",
+        "LLM APIs (GPT, Gemini, Claude, Qwen, GLM)",
+        "Git",
+        "LaTeX",
+        "Matplotlib"
+      ]
+    },
+    {
+      "title": "Research Methods & Languages",
+      "lines": [
+        "Experimental design & ablations; paired tests and effect-size analysis; user studies with qualitative coding.",
+        "Mandarin (native) · English (fluent)"
+      ],
+      "tags": []
+    }
+  ]
+}
