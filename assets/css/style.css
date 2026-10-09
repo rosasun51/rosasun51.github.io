@@ -357,3 +357,5 @@ h1,h2,h3{scroll-margin-top:76px}
 }
 [data-theme="dark"] .load-error{background:#3a1520;color:#fca5a5;border-color:#5b2436}
 .load-error a{text-decoration:underline}
+.edu-links{margin-top:.4rem;font-size:.9rem}
+.edu-links a{font-weight:500}
