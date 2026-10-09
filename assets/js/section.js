@@ -51,6 +51,7 @@
         <h3>${esc(e.school)}</h3>
         <p class="muted">${esc(e.meta)}</p>
         ${(e.lines || []).map(l => `<p>${esc(l)}</p>`).join('')}
+        ${(e.links && e.links.length) ? `<p class="edu-links">${e.links.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.label)} ↗</a>`).join(' · ')}</p>` : ''}
         ${tagsHTML(e.tags)}
       </div>`).join('');
     document.getElementById('about-skills').innerHTML = (d.skills || []).map(s => `
