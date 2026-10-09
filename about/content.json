@@ -11,6 +11,12 @@
       "lines": [
         "B.S. in Applied Mathematics and Computational Sciences, Mathematics Track"
       ],
+      "links": [
+        {
+          "label": "Supervisor: Dr. Bing Luo",
+          "url": "https://luobing1008.github.io/"
+        }
+      ],
       "tags": [
         "Linear Algebra",
         "Multivariable Calculus",
